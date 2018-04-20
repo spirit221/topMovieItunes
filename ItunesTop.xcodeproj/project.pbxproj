@@ -13,6 +13,18 @@
 		014C80572078DDD40081ED04 /* ItunesTop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 014C80552078DDD40081ED04 /* ItunesTop.xcdatamodeld */; };
 		014C80592078DDD40081ED04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014C80582078DDD40081ED04 /* Assets.xcassets */; };
 		014C805C2078DDD40081ED04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014C805A2078DDD40081ED04 /* LaunchScreen.storyboard */; };
+		014C80652078DF540081ED04 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C80632078DF540081ED04 /* DetailedViewController.swift */; };
+		014C80692078DFE90081ED04 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C80672078DFE90081ED04 /* TableViewCell.swift */; };
+		014C806A2078DFE90081ED04 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014C80682078DFE90081ED04 /* TableViewCell.xib */; };
+		014C806C2078E1210081ED04 /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C806B2078E1210081ED04 /* Films.swift */; };
+		014C806E2078E2BD0081ED04 /* GetTopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C806D2078E2BD0081ED04 /* GetTopList.swift */; };
+		014C80702078E43B0081ED04 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C806F2078E43B0081ED04 /* Constants.swift */; };
+		014C80722078F2CB0081ED04 /* GetTopListDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C80712078F2CB0081ED04 /* GetTopListDetailed.swift */; };
+		014C80762078F9550081ED04 /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C80752078F9550081ED04 /* InsetLabel.swift */; };
+		014C80792078FC780081ED04 /* SBCardPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C80772078FC780081ED04 /* SBCardPopupViewController.swift */; };
+		014C807A2078FC780081ED04 /* ChangeSizePopupContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C80782078FC780081ED04 /* ChangeSizePopupContentViewController.swift */; };
+		014C807C2078FDAB0081ED04 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014C807B2078FDAB0081ED04 /* Connectivity.swift */; };
+		F803B58EBF346EA2FA301009 /* Pods_ItunesTop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64A605A19477D0C06F02DD2 /* Pods_ItunesTop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,20 @@
 		014C80582078DDD40081ED04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014C805B2078DDD40081ED04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		014C805D2078DDD40081ED04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014C80632078DF540081ED04 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		014C80672078DFE90081ED04 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		014C80682078DFE90081ED04 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		014C806B2078E1210081ED04 /* Films.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		014C806D2078E2BD0081ED04 /* GetTopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopList.swift; sourceTree = "<group>"; };
+		014C806F2078E43B0081ED04 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		014C80712078F2CB0081ED04 /* GetTopListDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopListDetailed.swift; sourceTree = "<group>"; };
+		014C80752078F9550081ED04 /* InsetLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
+		014C80772078FC780081ED04 /* SBCardPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCardPopupViewController.swift; sourceTree = "<group>"; };
+		014C80782078FC780081ED04 /* ChangeSizePopupContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeSizePopupContentViewController.swift; sourceTree = "<group>"; };
+		014C807B2078FDAB0081ED04 /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		124FA002E37E4D9A86DAA343 /* Pods-ItunesTop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItunesTop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ItunesTop/Pods-ItunesTop.debug.xcconfig"; sourceTree = "<group>"; };
+		E64A605A19477D0C06F02DD2 /* Pods_ItunesTop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItunesTop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64E853E4CDF837DC24F715F /* Pods-ItunesTop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItunesTop.release.xcconfig"; path = "Pods/Target Support Files/Pods-ItunesTop/Pods-ItunesTop.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F803B58EBF346EA2FA301009 /* Pods_ItunesTop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				014C804D2078DDD40081ED04 /* ItunesTop */,
 				014C804C2078DDD40081ED04 /* Products */,
+				3E93DDBCC524CA3EC194C660 /* Pods */,
+				E10D92B8DE20C7A28C4DA1A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,17 @@
 			children = (
 				014C804E2078DDD40081ED04 /* AppDelegate.swift */,
 				014C80502078DDD40081ED04 /* ViewController.swift */,
+				014C806B2078E1210081ED04 /* Films.swift */,
+				014C80632078DF540081ED04 /* DetailedViewController.swift */,
+				014C806D2078E2BD0081ED04 /* GetTopList.swift */,
+				014C806F2078E43B0081ED04 /* Constants.swift */,
+				014C807B2078FDAB0081ED04 /* Connectivity.swift */,
+				014C80752078F9550081ED04 /* InsetLabel.swift */,
+				014C80712078F2CB0081ED04 /* GetTopListDetailed.swift */,
+				014C80782078FC780081ED04 /* ChangeSizePopupContentViewController.swift */,
+				014C80772078FC780081ED04 /* SBCardPopupViewController.swift */,
+				014C80672078DFE90081ED04 /* TableViewCell.swift */,
+				014C80682078DFE90081ED04 /* TableViewCell.xib */,
 				014C80522078DDD40081ED04 /* Main.storyboard */,
 				014C80582078DDD40081ED04 /* Assets.xcassets */,
 				014C805A2078DDD40081ED04 /* LaunchScreen.storyboard */,
@@ -67,6 +107,23 @@
 			path = ItunesTop;
 			sourceTree = "<group>";
 		};
+		3E93DDBCC524CA3EC194C660 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				124FA002E37E4D9A86DAA343 /* Pods-ItunesTop.debug.xcconfig */,
+				F64E853E4CDF837DC24F715F /* Pods-ItunesTop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E10D92B8DE20C7A28C4DA1A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E64A605A19477D0C06F02DD2 /* Pods_ItunesTop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 014C80602078DDD40081ED04 /* Build configuration list for PBXNativeTarget "ItunesTop" */;
 			buildPhases = (
+				BF7108F3DFF8F5C784FC080E /* [CP] Check Pods Manifest.lock */,
 				014C80472078DDD40081ED04 /* Sources */,
 				014C80482078DDD40081ED04 /* Frameworks */,
 				014C80492078DDD40081ED04 /* Resources */,
+				640FD06EB561598F6102B407 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				014C805C2078DDD40081ED04 /* LaunchScreen.storyboard in Resources */,
+				014C806A2078DFE90081ED04 /* TableViewCell.xib in Resources */,
 				014C80592078DDD40081ED04 /* Assets.xcassets in Resources */,
 				014C80542078DDD40081ED04 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +194,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		640FD06EB561598F6102B407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ItunesTop/Pods-ItunesTop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ItunesTop/Pods-ItunesTop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7108F3DFF8F5C784FC080E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ItunesTop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		014C80472078DDD40081ED04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014C807A2078FC780081ED04 /* ChangeSizePopupContentViewController.swift in Sources */,
+				014C80722078F2CB0081ED04 /* GetTopListDetailed.swift in Sources */,
+				014C80692078DFE90081ED04 /* TableViewCell.swift in Sources */,
+				014C806C2078E1210081ED04 /* Films.swift in Sources */,
 				014C80512078DDD40081ED04 /* ViewController.swift in Sources */,
 				014C804F2078DDD40081ED04 /* AppDelegate.swift in Sources */,
+				014C80652078DF540081ED04 /* DetailedViewController.swift in Sources */,
+				014C806E2078E2BD0081ED04 /* GetTopList.swift in Sources */,
+				014C807C2078FDAB0081ED04 /* Connectivity.swift in Sources */,
+				014C80792078FC780081ED04 /* SBCardPopupViewController.swift in Sources */,
 				014C80572078DDD40081ED04 /* ItunesTop.xcdatamodeld in Sources */,
+				014C80762078F9550081ED04 /* InsetLabel.swift in Sources */,
+				014C80702078E43B0081ED04 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +387,7 @@
 		};
 		014C80612078DDD40081ED04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124FA002E37E4D9A86DAA343 /* Pods-ItunesTop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +403,7 @@
 		};
 		014C80622078DDD40081ED04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64E853E4CDF837DC24F715F /* Pods-ItunesTop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
